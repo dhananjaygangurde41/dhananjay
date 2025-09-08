@@ -12,11 +12,11 @@ def home():
 def name():
      
     name = request.values.get('name')
-    age = request.values.get('age')
+    age = request.values.get('email')
     
     result = {
          'name' : name,
-          'age' : age
+          'age' : email
     }
     return result
     
