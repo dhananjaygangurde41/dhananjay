@@ -8,7 +8,7 @@ def home():
     return "hello djay"
 
 
-@app.route('/api/<name>')
+@app.route('/api/')
 def name(name):
      
     length = len(name)
